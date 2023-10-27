@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Aria is used for accessability. Check it out when coding. -->
+
+    <ul aria-label="Main Navigation">
+        <li>
+            <a href="home">
+                Home
+            </a>
+        </li>
+        <li>
+            <a href="services">
+                Services
+            </a>
+        </li>
+        <li>
+            <a href="contact">
+                Contact
+            </a>
+        </li>
+    </ul>
+
+    <form>
+        Name: <input type="text" placeholder="type here">
+        <input type="submit" value="submit">
+    </form>
+
+    <form>
+        <label for="namefield">
+            Name:
+        </label>
+        <input type="text" id="nanmefield" name="username" placeholder="type here">
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+
+    <div id="alert">5 new messages</div>
+    <div id="alert" role="alert" aria-live="polite">5 new messages</div>
+    
+</body>
+</html>
